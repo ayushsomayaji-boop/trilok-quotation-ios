@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trilok-quotation-shell-v2';
+const CACHE_NAME = 'trilok-quotation-shell-v3';
 const scopedUrl = (path = '') => new URL(path, self.registration.scope).href;
 const APP_HOME = scopedUrl();
 const APP_SHELL = [APP_HOME, scopedUrl('manifest.webmanifest'), scopedUrl('favicon.svg'), scopedUrl('trilok-3d-logo.png')];
